@@ -9,14 +9,11 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="net.awpspace.mynote.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
-
     <Button
         android:id="@+id/activity_main_btn_logout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Logout" />
+        android:background="#ecebeb"
+        android:text="Logout"
+        android:textColor="#8bc34a" />
 </RelativeLayout>
