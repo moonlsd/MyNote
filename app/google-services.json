@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "764290876312",
+    "firebase_url": "https://mynote-84a17.firebaseio.com",
+    "project_id": "mynote-84a17",
+    "storage_bucket": "mynote-84a17.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:764290876312:android:c1979f9bfb2d1c1d",
+        "android_client_info": {
+          "package_name": "net.awpspace.mynote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "764290876312-004388tfekdqdpmldpv7rl6hf48eon1d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.awpspace.mynote",
+            "certificate_hash": "8777D20AF213EB69B6D36331011B46CA23139D17"
+          }
+        },
+        {
+          "client_id": "764290876312-8rqoq241lokicm2ii4t0iustkdumf0c1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkcEvO6RtMl7ISzGTn6Xk_AQilZtiXAvw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "764290876312-8rqoq241lokicm2ii4t0iustkdumf0c1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
