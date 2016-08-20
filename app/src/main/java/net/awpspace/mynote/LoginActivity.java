@@ -19,6 +19,7 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.crash.FirebaseCrash;
 import com.google.firebase.iid.FirebaseInstanceId;
 
 /**
@@ -27,6 +28,9 @@ import com.google.firebase.iid.FirebaseInstanceId;
 public class LoginActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
+        FirebaseCrash.log("Activity created");
+        FirebaseCrash.logcat(Log.ERROR, "tag", "Message");
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
@@ -69,7 +73,7 @@ public class LoginActivity extends AppCompatActivity {
                 startActivity(new Intent(LoginActivity.this, RegisterActivity.class));
             }
         });
-
+        FirebaseCrash.report(new Exception("My first Android non-fatal error"));
     }
 
     private void infoEnterdInvalid() {
